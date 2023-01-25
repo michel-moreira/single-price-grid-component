@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    min-width: 340px;
+  }
+  .container .principal {
+    grid-area: principal;
+    padding: 2rem;
+  }
+  .container .principal .title {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+  }
+  .container .principal .sub-title.top-banner {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    padding-right: 0.9rem;
+  }
+  .container .principal .description {
+    font-size: 1.5rem;
+    line-height: 2;
+    margin-bottom: 1rem;
+  }
+  /* ------------------------- */
+  .container .plan-price {
+    padding: 2rem 2rem 2.5rem 2rem;
+    border-radius: 0;
+  }
+  /* ------------------------- */
+  .container .why-us {
+    border-radius: 0 0 0.6rem 0.6rem;
+    padding: 2.5rem 3rem 2.5rem 3rem;
+  }
+  .container .why-us .sub-title.editorial {
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+  }
+  .container .why-us .description-about {
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0;
+  }
+}

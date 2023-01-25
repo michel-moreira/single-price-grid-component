@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.6rem;
+  font-family: var(--font-family);
+  margin: 6rem 0;
+}
+/* ............................ */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  padding: 4rem;
+}
+/* ============================ */
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "principal principal"
+    "plan why-us";
+  grid-template-columns: repeat(2, 1fr);
+  box-shadow: 3px 4px 5px 5px var(--light-gray);
+  border-radius: 0.6rem;
+  max-width: 705px;
+}
+
+/* ============================ */
+.container .principal {
+  grid-area: principal;
+  padding: 4rem 7rem 4rem 4rem;
+}
+.container .principal .title {
+  color: var(--grayish-blue);
+  font-size: 2.7rem;
+  margin-bottom: 2rem;
+}
+.container .principal .sub-title.top-banner {
+  color: var(--bright-yellow);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.container .principal .description {
+  color: var(--grayish-blue);
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ============================ */
+.container .plan-price {
+  grid-area: plan;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--cyan);
+  color: var(--light-gray);
+  padding: 4rem 4.5rem 3rem 4rem;
+  border-radius: 0 0 0 0.6rem;
+}
+
+.container .plan-price .sub-title.signup {
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.container .plan-price .plan {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.container .plan-price .plan .price {
+  font: 700 3.5rem var(--font-family);
+  margin-right: 2rem;
+}
+
+.container .plan-price .plan .period {
+  color: #d4c0c0;
+}
+
+.container .plan-price .access {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.6px;
+}
+
+.container .plan-price .btn-signup {
+  padding: 1.4rem;
+  text-align: center;
+  max-width: 100%;
+  border-radius: 0.6rem;
+  box-shadow: 5px 2px 5px 5px var(--shadow-button);
+  border: 1px solid var(--bright-yellow);
+  color: var(--light-gray);
+  background-color: var(--bright-yellow);
+  transition: 0.5s ease-in;
+}
+.container .plan-price .btn-signup:hover {
+  background-color: var(--cyan);
+}
+
+/* ============================ */
+.container .why-us {
+  grid-area: why-us;
+  background-color: var(--why-us);
+  color: var(--light-gray);
+  padding: 4rem;
+  border-radius: 0 0 0.6rem 0;
+}
+
+.container .why-us .sub-title.editorial {
+  font-size: 2rem;
+  margin-bottom: 1.8rem;
+}
+
+.container .why-us .description-about {
+  letter-spacing: 0.1px;
+  font-size: 1.5rem;
+  padding-right: 6rem;
+}
+
+/* ############################ */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-family: var(--font-family);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
