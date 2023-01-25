@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution: [Frontend Mentor solution by Michel Moreira]()
+- Solution: [Frontend Mentor solution by Michel Moreira](https://www.frontendmentor.io/solutions/single-price-grid-component-7eIadGl7Jg)
 - Live Site: [Github pages](https://michel-moreira.github.io/single-price-grid-component/)
 
 ## My process
