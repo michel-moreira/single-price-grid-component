@@ -24,7 +24,7 @@ main {
     "principal principal"
     "plan why-us";
   grid-template-columns: repeat(2, 1fr);
-  box-shadow: 3px 3px 5px 5px hsl(203, 9%, 82%);;
+  box-shadow: 3px 3px 15px 5px hsl(203, 9%, 82%);
   max-width: 705px;
   border-radius: 0.6rem;
 }
