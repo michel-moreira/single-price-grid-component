@@ -6,6 +6,7 @@ body {
   font-size: 1.6rem;
   font-family: var(--font-family);
   margin: 6rem 0;
+  background-color: var(--light-gray);
 }
 /* ............................ */
 main {
@@ -23,15 +24,17 @@ main {
     "principal principal"
     "plan why-us";
   grid-template-columns: repeat(2, 1fr);
-  box-shadow: 3px 4px 5px 5px var(--light-gray);
-  border-radius: 0.6rem;
+  box-shadow: 3px 3px 5px 5px hsl(203, 9%, 82%);;
   max-width: 705px;
+  border-radius: 0.6rem;
 }
 
 /* ============================ */
 .container .principal {
+  border-radius: 0.6rem 0.6rem 0 0 ;
   grid-area: principal;
   padding: 4rem 7rem 4rem 4rem;
+  background-color: #fff;
 }
 .container .principal .title {
   color: var(--grayish-blue);

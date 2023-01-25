@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution: [Frontend Mentor solution by Michel Moreira]()
-- Live Site: [Github pages]()
+- Live Site: [Github pages](https://michel-moreira.github.io/single-price-grid-component/)
 
 ## My process
 
