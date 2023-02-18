@@ -15,6 +15,7 @@ main {
   align-items: center;
   margin: 2rem;
   padding: 4rem;
+  min-height: 100vh;
 }
 /* ============================ */
 
@@ -31,8 +32,8 @@ main {
 
 /* ============================ */
 .container .principal {
-  border-radius: 0.6rem 0.6rem 0 0 ;
   grid-area: principal;
+  border-radius: 0.6rem 0.6rem 0 0;
   padding: 4rem 7rem 4rem 4rem;
   background-color: #fff;
 }
@@ -101,8 +102,10 @@ main {
   background-color: var(--bright-yellow);
   transition: 0.5s ease-in;
 }
-.container .plan-price .btn-signup:hover {
-  background-color: var(--cyan);
+@media (min-width: 1024px) {
+  .container .plan-price .btn-signup:hover {
+    background-color: var(--cyan);
+  }
 }
 
 /* ============================ */
@@ -126,6 +129,7 @@ main {
 }
 
 /* ############################ */
+
 .attribution {
   font-size: 11px;
   text-align: center;
